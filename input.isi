@@ -1,0 +1,33 @@
+programa
+	numero a, b, c, e, i;
+	texto t1;
+	
+	a = 1;
+	b = 1.3;
+	t1 = "teste";
+	
+	escreva(a);
+	escreva(b);
+	
+	se (b > a) {
+		escreva (a);
+	} senao {
+		escreva(b);
+	}
+	
+	enquanto (a > b) {
+		escreva(a);
+	}
+	
+	leia(c);
+	escreva(c);
+	
+	//escreva(d);
+	
+	e++;
+	
+	para(i=0 ate i < 4 passo i++) {
+		escreva(i);
+	}
+
+fimprog;
